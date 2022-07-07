@@ -21,6 +21,7 @@ const worldCities = (euroCities.join(" ") + " " + asianCities.join(" ")).split(
   " "
 );
 
+console.log(worldCities);
 console.log("World Cities are", worldCities);
 console.log("Reversed World Cities", worldCities.reverse());
 
@@ -29,6 +30,7 @@ console.log(euroCities);
 
 const asianSelection = asianCities.slice(1, 4);
 console.log(asianSelection);
+console.log(worldCities);
 console.log(worldCities.splice(2, 1, "Toronto"));
 console.log(worldCities);
 console.log(worldCities.splice(1, 0, "Washington"));
